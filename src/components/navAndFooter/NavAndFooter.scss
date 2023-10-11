@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pixelify+Sans:wght@500;700&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+.container {
+  background-color: #5B4FCC;
+  padding: 5px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  .link{
+    text-decoration: none;
+    color: white;
+  span{
+      display: inline-block;
+      padding: 10px;
+      font-weight: bolder;
+      font-size: larger;
+      cursor: pointer;
+      font-family: 'Poppins', cursive;
+  }
+}
+
+  div {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      right: 1%;
+.link{
+    text-decoration: none;
+    color: white;
+      li {
+          padding: 10px;
+          text-transform: uppercase;
+          font-weight: bold;
+          text-decoration: none;
+          font-family: 'Poppins', cursive;
+
+          &:hover {
+              border-bottom: 1px solid white;
+              border-radius: 3px;
+              color: rgb(243, 209, 15);
+              cursor: pointer;
+          }
+        
+      }
+    }
+    
+  }
+
+  @media screen and (max-width: 768px) {
+      flex-direction: column;
+      flex-wrap: wrap;
+
+      div {
+          position: relative;
+          right: 0;
+          align-items: center;
+          justify-content: center;
+          margin-top: 10px;
+
+          li {
+              margin-bottom: 5px;
+              font-size: .8rem;
+          }
+      }
+  }
+}

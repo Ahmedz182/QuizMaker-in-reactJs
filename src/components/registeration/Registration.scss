@@ -1,0 +1,133 @@
+.containerRegistration{
+    height: 85dvh;
+    background-color: #b8d4fb;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f78d1e;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        label{
+            color: black;
+            margin-bottom: 5px;
+            font-size: 1rem;
+            padding-left: 3px;
+        }
+        input{
+            padding: 12px;
+            width: 30dvw;
+            border: none;
+            outline: #f78d1e;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+       
+        input[type=button]{
+            background-color: #f78d1e;
+            width: 15dvw;
+            margin-top: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            float: right;
+            padding-top: 12px;
+            margin-left: 20px;
+            &:hover{
+                cursor: pointer;
+                background-color: #5B4FCC;
+                color: white;
+            }
+        }
+        input[type=checkbox]{
+            width: 15px;
+            margin-right: 10px;
+            margin-top: 20px;
+            
+        }
+
+
+
+    }
+.reg{
+  
+    padding: 20px;
+    text-align: start;
+    margin-top: 20px;
+    .regNot{
+        color: black;
+        font-weight: 600;
+        &::after{
+            content: "-";
+        }
+    }
+    .signup{
+        text-decoration: none;
+        margin-left: 10px;
+        font-weight: 700;
+        &:hover{
+            color: #f78d1e;
+           border-bottom: 1px solid #f78d1e;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    form {
+    
+
+        input{
+            padding: 12px;
+            width: 80dvw;
+            border: none;
+            outline: #f78d1e;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+.chk{
+    display: flex;
+flex-wrap: wrap;
+align-items: center;
+width: 75dvw;
+justify-content: center;
+
+
+.rem{
+    margin-top: 15px;
+    font-size: .9rem;
+}
+        input[type=button]{
+            background-color: #f78d1e;
+            width: 50dvw;
+            margin-top: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            float: right;
+            padding-top: 12px;
+            margin-left: 20px;
+            &:hover{
+                cursor: pointer;
+                background-color: #5B4FCC;
+                color: white;
+            }
+        }
+
+       
+    }
+       
+    }
+    .reg{
+        display: flex;
+        flex-direction: column;
+        .signup{
+            text-decoration: none;
+            margin-left: 0px;
+            font-weight: 700;
+           
+        }
+    }
+  }
+    
+}
