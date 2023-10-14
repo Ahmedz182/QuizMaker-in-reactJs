@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/QuizMaker-in-reactJs/static/css/main.3cc65a25.css",
-    "main.js": "/QuizMaker-in-reactJs/static/js/main.6b498e23.js",
+    "main.css": "/QuizMaker-in-reactJs/static/css/main.62e9dde5.css",
+    "main.js": "/QuizMaker-in-reactJs/static/js/main.c33b08ae.js",
     "static/js/787.62aeb13d.chunk.js": "/QuizMaker-in-reactJs/static/js/787.62aeb13d.chunk.js",
     "static/media/clip2.jpg": "/QuizMaker-in-reactJs/static/media/clip2.17ddd4d0c9dee97772b4.jpg",
     "static/media/quiz_1.png": "/QuizMaker-in-reactJs/static/media/quiz_1.813bf8905fda5bd23af3.png",
@@ -11,12 +11,12 @@
     "static/media/fun quiz.jpg": "/QuizMaker-in-reactJs/static/media/fun quiz.18b1703ac62c5c5cce2b.jpg",
     "static/media/quiz.jpg": "/QuizMaker-in-reactJs/static/media/quiz.87a64ae1073989555c78.jpg",
     "index.html": "/QuizMaker-in-reactJs/index.html",
-    "main.3cc65a25.css.map": "/QuizMaker-in-reactJs/static/css/main.3cc65a25.css.map",
-    "main.6b498e23.js.map": "/QuizMaker-in-reactJs/static/js/main.6b498e23.js.map",
+    "main.62e9dde5.css.map": "/QuizMaker-in-reactJs/static/css/main.62e9dde5.css.map",
+    "main.c33b08ae.js.map": "/QuizMaker-in-reactJs/static/js/main.c33b08ae.js.map",
     "787.62aeb13d.chunk.js.map": "/QuizMaker-in-reactJs/static/js/787.62aeb13d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cc65a25.css",
-    "static/js/main.6b498e23.js"
+    "static/css/main.62e9dde5.css",
+    "static/js/main.c33b08ae.js"
   ]
 }
